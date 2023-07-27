@@ -1,3 +1,5 @@
+import time
+
 tabuleiro = ['[1]','[2]','[3]',
              '[4]','[5]','[6]',
              '[7]','[8]','[9]']
@@ -45,6 +47,8 @@ def menu():
         print('Terminou Empatado')
     else:
         print(f'Player2 ganhou de {player[1]} a {player[0]}')
+
+    time.sleep(5)
 
 def jogo():
     global troca
